@@ -13,4 +13,3 @@
 <p>This page is where I'll practice the basics of HTML as I learn. Expect simple updates as I get more comfortable adding new features.</p>
 
 </body>
-</html>
