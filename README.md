@@ -1,2 +1,18 @@
-# a1spark.github.io
-CSCI434WebProgramming2025
+<!DOCTYPE html>
+<html>
+<header>
+<title> Hard Knox Life </title>
+</header>
+
+<body>
+
+<header>
+ <big><big><b>Hard Knox Life</b></big></big>
+</header>
+
+<hr>
+<h2>About This Site</h2>
+<p>This page is where I'll practice the basics of HTML as I learn. Expect simple updates as I get more comfortable adding new features.</p>
+
+</body>
+</html>
