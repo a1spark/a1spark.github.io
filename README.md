@@ -10,6 +10,6 @@
 
 <hr>
 <h2>About This Site</h2>
-<p>This page is where I'll practice the basics of HTML as I learn. Expect simple updates as I get more comfortable adding new features.</p>
+<p>This page is where I'll practice the basics of HTML, CSS and Javascript as I learn. Expect simple updates as I get more comfortable adding new features.</p>
 
 </body>
