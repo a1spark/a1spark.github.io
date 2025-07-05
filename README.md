@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <header>
 <title> Hard Knox Life </title>
