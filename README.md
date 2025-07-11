@@ -7,7 +7,7 @@
 </header>
 <hr>
 <fieldset>
-<About This Site</h3></big></big></h2>
+<About This Site></big></h2>
 <This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.<big></big></p>
 </em>
 <hr>
