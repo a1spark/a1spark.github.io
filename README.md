@@ -11,7 +11,8 @@
 <hr>
 
 <fieldset>
-<h2 This Site</big></big></h2>
+<h2 style="color:rgb(95, 27, 2);">About This Site</h2>
+
 <em>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.<big></big></p>
 </em>
 <hr>
