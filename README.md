@@ -3,12 +3,12 @@
 </header>
 <body style="background-color:burlywood;">
 <header>
- <big><big><big><b><h1 style="color:rgb(95, 27, 2);">< Hard Knox Life></b></big></big></big>
+<h1 style="color:rgb(95, 27, 2);"> Hard Knox Life</b></big></big></big>
 </header>
 <hr>
 <fieldset>
-<About This Site></big></h2>
-<This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.<big></big></p>
+<About This Site</big></big></h2>
+<em>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.<big></big></p>
 </em>
 <hr>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;When it comes to a little about myself, one of the most important things is my career in the military. Starting out as an eighteen-year-old fresh out of high school with no
