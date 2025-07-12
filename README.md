@@ -19,6 +19,10 @@
 <hr>
 
 <fieldset>
+    <style>.padded image {
+        padding: 10px};
+    </style>
+    
     <legend style="color:rgb(95, 27, 2);"><big><big><b>Bio</b></big></big></legend>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;When it comes to a little about myself, one of the most important things is my career in the military. Starting out as an eighteen-year-old fresh out of high school with no
         experience of how the world works, the military threw me into a whirlwind of experiences that jump-started my knowledge of the world, surpassing that of my peers close to my 
