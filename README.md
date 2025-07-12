@@ -38,5 +38,15 @@ the family are here to stay. Whatever comes next, whether it is a fresh assignme
 camera in hand, I am eager to collect the next batch of stories that will crowd the future with memories.</p>
 <hr>
 </fieldset>
+
+    <aside>
+        <legend style="color:rgb(95, 27, 2);"><big><big><b>Frequently Visted Sites</b></big> </legend>
+            <ul>
+                <li><a href="https://collider.com/">Movie News: https://collider.com/</a></li>
+                <li><a href="https://www.damage.com/">Repairable Salvaged Vehicles: https://www.damage.com/</a></li>
+                <li><a href="https://www.gamingbible.com/">Gaming News: https://www.gamingbible.com/</a></li>
+            </ul>
+    </aside>
+
 </body>
 </html>
