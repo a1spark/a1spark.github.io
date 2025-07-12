@@ -22,7 +22,7 @@
     <style>.padded image {
         padding: 10px};
     </style>
-    
+
     <legend style="color:rgb(95, 27, 2);"><big><big><b>Bio</b></big></big></legend>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;When it comes to a little about myself, one of the most important things is my career in the military. Starting out as an eighteen-year-old fresh out of high school with no
         experience of how the world works, the military threw me into a whirlwind of experiences that jump-started my knowledge of the world, surpassing that of my peers close to my 
@@ -41,7 +41,7 @@
         and her story together throughout her life, but I will refrain and only say I miss her every day. After Pepper’s passing, I found my second dog, Freya, six long and lonely 
         months later, at the local Humane Society. Freya has become the goofiest and loved addition to my family and would make Pepper proud!</p>
 
-            <img src="Images/Pepper.png" alt="Pepper" width="230" height="450"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="250" height="450"><img src="Images/FreyaCharlie2024.png" alt="FreyaCharlie2024" width="300" height="450">
+            <img src="Images/Pepper.png" alt="Pepper" width="230" height="450" class=".padded image"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="250" height="450"class=".padded image"><img src="Images/FreyaCharlie2024.png" alt="FreyaCharlie2024" width="300" height="450"class=".padded image">
 
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Looking ahead, I carry these chapters like well-worn patches on my uniform, reminders that the kid who once marched off wide-eyed now stands as a seasoned traveler, 
         grease-knuckled tinkerer, and devoted dog guardian. The uniform will come off eventually; however, the discipline, curiosity, and habit of welcoming four-legged comedians into 
