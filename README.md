@@ -31,6 +31,9 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp; With the financial security provided by the military during the turbulent times of the 2008 recession and housing crash, the opportunities afforded by this security enabled me 
         to expand my interests and hobbies, and to discover what life means in adulthood.  While continuing to build on the skills learned from the military by rebuilding crashed 
         cars from my '96 Camaro, to deep engine repair, to my VW TDI Jetta. Childhood interests continued to grow from macro photography and astrophotography to movies and video games.</p>
+            
+            <img src="Images/Camping2021.png" alt="Camping2021" width="450" height="250">
+
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Subsequently, the military is not all-encompassing of who I am. With the newfound freedom from the constant rule of my parents and my mother’s dislike of dogs, I found my first 
         dog, Pepper, in the newspaper. Yup, I’m officially old! Following in my footsteps with a love for dogs is my twin sister. My girlfriend at the time told me about a dog in a 
         shelter, a city away. I passed the webpage post to my sister, and we brought Charlie home three days later. I could fill endless pages about the time I got to spend with Pepper 
