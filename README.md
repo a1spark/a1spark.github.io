@@ -25,6 +25,7 @@
         age. By the age of 25, I had traveled around the globe, with multiple deployments to the Pacific military theater and the sandy, desolate regions of Afghanistan, gathering 
         a lifetime of memories of the people I met and experiences that I will cherish for a lifetime. Although this type of service is not for everyone, I am proud to be one of the 
         1% who are able to serve and appreciate anyone who has or had any aspirations to join.</p>
+            <img src="Images/A10Warthog2019.png" alt="Warthog" width="250" height="450"
         <p>&nbsp;&nbsp;&nbsp;&nbsp; With the financial security provided by the military during the turbulent times of the 2008 recession and housing crash, the opportunities afforded by this security enabled me 
         to expand my interests and hobbies, and to discover what life means in adulthood.  While continuing to build on the skills learned from the military by rebuilding crashed 
         cars from my '96 Camaro, to deep engine repair, to my VW TDI Jetta. Childhood interests continued to grow from macro photography and astrophotography to movies and video games.</p>
