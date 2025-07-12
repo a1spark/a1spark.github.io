@@ -3,7 +3,7 @@
 </header>
 <body style="background-color:burlywood;">
 <header>
- <big><big><big><b><h1 style="color:rgb(95, 27, 2);"> Hard Knox Life</b></big></big></big>
+ <big><big><big><b><h1 style="color:rgb(95, 27, 2);">< Hard Knox Life></b></big></big></big>
 </header>
 <hr>
 <fieldset>
