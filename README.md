@@ -14,7 +14,7 @@
 <fieldset>
 <h2 style="color:rgb(95, 27, 2);">About This Site</h2>
 
-<em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</big></big></p>
+<em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</p>
 </em>
 
 <hr>
@@ -34,8 +34,8 @@ months later, at the local Humane Society. Freya has become the goofiest and lov
 <p>&nbsp;&nbsp;&nbsp;&nbsp; Looking ahead, I carry these chapters like well-worn patches on my uniform, reminders that the kid who once marched off wide-eyed now stands as a seasoned traveler, 
 grease-knuckled tinkerer, and devoted dog guardian. The uniform will come off eventually; however, the discipline, curiosity, and habit of welcoming four-legged comedians into 
 the family are here to stay. Whatever comes next, whether it is a fresh assignment, a stubborn engine, or a goofy tail thumping at the shelter gate, I am ready. Toolbox and 
-camera in hand, I am eager to collect the next batch of stories that will crowd the future with memories.<p>
-</p>
+camera in hand, I am eager to collect the next batch of stories that will crowd the future with memories.</p>
+<hr>
 </fieldset>
 </body>
 </html>
