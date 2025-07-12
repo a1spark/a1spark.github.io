@@ -1,7 +1,7 @@
 <html>
 <header>
 <title> 
-    <big>Hard Knox Life</big>
+    Hard Knox Life
 </title>
 
 </header>
@@ -13,7 +13,7 @@
 <hr>
 
 <fieldset>
-<legend style="color:rgb(95, 27, 2);"><big>About This Site</big></legend>
+<legend style="color:rgb(95, 27, 2);"><big><big><b>About This Site </b></big></legend>
 <em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</p>
 </em>
 </fieldset>
@@ -39,14 +39,14 @@ camera in hand, I am eager to collect the next batch of stories that will crowd 
 <hr>
 </fieldset>
 
-    <aside>
-        <legend style="color:rgb(95, 27, 2);"><big><big><b>Frequently Visted Sites</b></big> </legend>
+ <Fieldset>
+        <legend style="color:rgb(95, 27, 2);"><big><big><b>Frequently Visted Sites</b></big></legend>
             <ul>
                 <li><a href="https://collider.com/">Movie News: https://collider.com/</a></li>
                 <li><a href="https://www.damage.com/">Repairable Salvaged Vehicles: https://www.damage.com/</a></li>
                 <li><a href="https://www.gamingbible.com/">Gaming News: https://www.gamingbible.com/</a></li>
             </ul>
-    </aside>
+</Fieldset>
 
 </body>
 </html>
