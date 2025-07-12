@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <header>
 <title> Hard Knox Life</title>
@@ -13,8 +14,9 @@
 <fieldset>
 <h2 style="color:rgb(95, 27, 2);">About This Site</h2>
 
-<em>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.<big></big></p>
+<em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</big></big></p>
 </em>
+
 <hr>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;When it comes to a little about myself, one of the most important things is my career in the military. Starting out as an eighteen-year-old fresh out of high school with no
 experience of how the world works, the military threw me into a whirlwind of experiences that jump-started my knowledge of the world, surpassing that of my peers close to my 
