@@ -13,7 +13,7 @@
 <hr>
 
 <fieldset>
-<legend style="color:rgb(95, 27, 2);">About This Site</legend>
+<legend style="color:rgb(95, 27, 2);"><big>About This Site</big></legend>
 <em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</p>
 </em>
 </fieldset>
