@@ -13,13 +13,13 @@
 </header>
 <hr>
 
-<fieldset>
+<fieldset style="border:3px seagreen;">
     <legend style="color:rgb(95, 27, 2);"><big><big><b>About This Site</b></big></big></legend>
         <em><p>This page is where I'll practice the basics of HTML, Javascript and CSS as I learn. Expect simple updates as I get more comfortable adding new features.</p></em>
 </fieldset>
 <hr>
 
-<fieldset>
+<fieldset style="border:3px seagreen;">
     <legend style="color:rgb(95, 27, 2);"><big><big><b>Bio</b></big></big></legend>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;When it comes to a little about myself, one of the most important things is my career in the military. Starting out as an eighteen-year-old fresh out of high school with no
         experience of how the world works, the military threw me into a whirlwind of experiences that jump-started my knowledge of the world, surpassing that of my peers close to my 
@@ -40,7 +40,7 @@
         camera in hand, I am eager to collect the next batch of stories that will crowd the future with memories.</p>
 </fieldset>
 <hr>
-<fieldset>
+<fieldset style="border:3px seagreen;">
         <legend style="color:rgb(95, 27, 2);"><big><big><b>Frequently Visted Sites</b></big></big></legend>
             <ul>
                 <li><a href="https://collider.com/">Movie News: https://collider.com/</a></li>
