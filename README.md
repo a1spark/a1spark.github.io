@@ -61,8 +61,8 @@
         <legend style="color:rgb(95, 27, 2);"><big><big><b>Epoxy Table Order Form Link></b></big></big></legend>
             <html>
                 <body>
-                    Epoxy Table Order Form</br>
-                    <a href="Epoxy Table Order Form.html">
+                    Epoxy Table Order Form:
+                    <a href="OrderForm/Epoxy Table Order Form.html">
                         Order an Epoxy Table Here!
                     </a>
 
