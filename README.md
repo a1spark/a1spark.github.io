@@ -40,7 +40,7 @@
         and her story together throughout her life, but I will refrain and only say I miss her every day. After Pepper’s passing, I found my second dog, Freya, six long and lonely 
         months later, at the local Humane Society. Freya has become the goofiest and loved addition to my family and would make Pepper proud!</p>
 
-            <img src="Images/Pepper.png" alt="Pepper" width="230" height="450"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="250" height="450"><img src="Images/Freya2023.png" alt="Freya" width="245" height="450">
+            <img src="Images/Pepper.png" alt="Pepper" width="230" height="450"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="250" height="450"><img src="Images/Freya2023.png" alt="Freya" width="250" height="450">
             <img src="Images/FreyaCharlie2024.png" alt="FreyaCharlie2024" width="300" height="450">
 
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Looking ahead, I carry these chapters like well-worn patches on my uniform, reminders that the kid who once marched off wide-eyed now stands as a seasoned traveler, 
