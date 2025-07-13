@@ -58,7 +58,7 @@
 </fieldset>
 
 <fieldset>
-        <legend style="color:rgb(95, 27, 2);"><big><big><b>Epoxy Table Order Form Link></b></big></big></legend>
+        <legend style="color:rgb(95, 27, 2);"><big><big><b>Epoxy Table Order Form Link</b></big></big></legend>
             <html>
                 <body>
                     Epoxy Table Order Form:
