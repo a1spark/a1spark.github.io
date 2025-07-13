@@ -1,1 +1,52 @@
+<html>
+<header>
+<title> Aether Alloy Creations Manufacturing Order Form </title>
+</header>
 
+<body>
+
+<header>
+ <img src="Unit 3 Logo.jpg" alt="Company Logo"width="300" height="300"> <header>
+ <big><big><b>Order Form</b></big></big>
+</header>
+
+<hr>
+<p>Full Name: <input type="text" name="name"required></p>
+<p>Address: <input type="text" name="address"required></p>
+<p>Email: <input type="email" name="email"required></p>
+<p>State: <input type="text" name="state"required></p>
+<p>ZIP Code: <input type="text" name="zip"required></p>
+<p>Phone Number: <input type="text" name="phone"required></p>
+
+<hr>
+
+<big><big><b>Product Selection</b></big></big>
+<select name = "Product" id= "Product" required>
+<option value = "Epoxy Table 1">Epoxy Table 1($235.00)</option>
+<option value = "Epoxy Table 2">Epoxy Table 2($345.65)</option>
+<option value = "Epoxy Table 3">Epoxy Table 3($567.53)</option>
+<option value = "Epoxy Table 4">Epoxy Table 4($872.49)</option>
+</select>
+
+<p>Quantity:<input type ="num" name= "Quantity" id= "Quantity" required></p>
+
+<fieldset>
+    <legend><b>Rewards Member?</b></legend>
+    <label><input type ="radio" name="Rewards" value="yes"> Yes</label>
+    <label><input type ="radio" name="Rewards" value="no"> No</label>
+</fieldset>
+
+<fieldset>
+    <legend><b>Protection Plan? (Add $350.00)</b></legend>
+    <label><input type ="radio" name="Protection" value="yes"> Yes</label>
+    <label><input type ="radio" name="Protection" value="no"> No</label>
+</fieldset>
+
+<p><p><button type = "button" onclick="TotalPurchase()">Submit</button></p>
+<div id = "result"></div>
+	
+<hr>
+<p><big><b>Total Purchase</b></big></p>
+<p><label for="total">Total:</label>
+	<input type="text" id="total" value="0.00" disabled></p>
+<p><i>(7.5 % Tax Included)<i/></p>
