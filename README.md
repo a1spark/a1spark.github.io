@@ -57,5 +57,19 @@
             </ul>
 </fieldset>
 
+<fieldset>
+        <legend style="color:rgb(95, 27, 2);"><big><big><b>Epoxy Table Order Form Link></b></big></big></legend>
+            <html>
+                <body>
+                    Epoxy Table Order Form</br>
+                    <a href="Epoxy Table Order Form.html">
+                        Order an Epoxy Table Here!
+                    </a>
+
+                </body>
+            </html>
+
+</fieldset>
+
 </body>
 </html>
