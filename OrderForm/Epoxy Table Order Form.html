@@ -46,5 +46,44 @@
 	<input type="text" id="total" value="0.00" disabled></p>
 <p><i>(7.5 % Tax Included)<i/></p>
 
+<script>
+function TotalPurchase() 
+	{
+       productSelect = document.getElementById('Product');
+       product = productSelect.value;
+       price = 0;
+      if (product == 'Epoxy Table 1') {
+        price = 235.00;
+      } else if (product == 'Epoxy Table 2') {
+        price = 345.65;
+      } else if (product == 'Epoxy Table 3') {
+        price = 567.53;
+      } else if (product == 'Epoxy Table 4') {
+        price = 872.49;
+      }
+
+       qtyBox = document.getElementById('Quantity');
+       quantity = parseInt(qtyBox.value) || 0;
+
+       rewardsSelect = document.getElementsByName('Rewards');
+       rewards = rewardsSelect[0].checked ? 'yes' : 'no';
+	   
+       protectSelect = document.getElementsByName('Protection');
+       protection = protectSelect[0].checked ? 'yes' : 'no';
+
+       subtotal = price * quantity;
+      if (protection == 'yes') {
+        subtotal += 350.00;
+      }
+      if (rewards == 'yes') {
+        subtotal -= subtotal * 0.05;  
+      }
+       tax = subtotal * 0.075;      
+       total = subtotal + tax;
+	  
+      document.getElementById('total').value = total.toFixed(2);
+	}
+</script>	
+
 
 </body>
