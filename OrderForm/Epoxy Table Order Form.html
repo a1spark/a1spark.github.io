@@ -48,60 +48,42 @@
   </p>
 
 <script>
-function totalPurchase() {
-      
-      const name  = document.getElementById('name').value.trim();
-      const addr  = document.getElementById('address').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const state = document.getElementById('state').value.trim();
-      const zip   = document.getElementById('zip').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-
-      const productSel = document.getElementById('product');
-      const product    = productSel.value;
-
-      /* keep the original if-else-if block for price */
-      let price = 0;
-      if (product === 'Epoxy Table 1') {
+function TotalPurchase() 
+	{
+       productSelect = document.getElementById('Product');
+       product = productSelect.value;
+       price = 0;
+      if (product == 'Epoxy Table 1') {
         price = 235.00;
-      } else if (product === 'Epoxy Table 2') {
+      } else if (product == 'Epoxy Table 2') {
         price = 345.65;
-      } else if (product === 'Epoxy Table 3') {
+      } else if (product == 'Epoxy Table 3') {
         price = 567.53;
-      } else if (product === 'Epoxy Table 4') {
+      } else if (product == 'Epoxy Table 4') {
         price = 872.49;
       }
 
-      const quantity = parseInt(document.getElementById('quantity').value) || 0;
+       qtyBox = document.getElementById('Quantity');
+       quantity = parseInt(qtyBox.value) || 0;
 
-     
-      const rewards    = document.querySelector('input[name="rewards"]:checked').value;
-      const protection = document.querySelector('input[name="protection"]:checked').value;
+       rewardsSelect = document.getElementsByName('Rewards');
+       rewards = rewardsSelect[0].checked ? 'yes' : 'no';
+	   
+       protectSelect = document.getElementsByName('Protection');
+       protection = protectSelect[0].checked ? 'yes' : 'no';
 
-      let subtotal = price * quantity;
-      if (protection === 'yes') subtotal += 350.00;
-      if (rewards    === 'yes') subtotal *= 0.95;    // 5 % discount
-
-      const tax   = subtotal * 0.075;                // 7.5 % tax
-      const total = subtotal + tax;
-
+       subtotal = price * quantity;
+      if (protection == 'yes') {
+        subtotal += 350.00;
+      }
+      if (rewards == 'yes') {
+        subtotal -= subtotal * 0.05;  
+      }
+       tax = subtotal * 0.075;      
+       total = subtotal + tax;
+	  
       document.getElementById('total').value = total.toFixed(2);
-
-      const summary =
-        `Name:            ${name}\n` +
-        `Address:         ${addr}\n` +
-        `Email:           ${email}\n` +
-        `State:           ${state}\n` +
-        `ZIP Code:        ${zip}\n` +
-        `Phone:           ${phone}\n\n` +
-        `Product:         ${product}\n` +
-        `Quantity:        ${quantity}\n` +
-        `Rewards Member:  ${rewards}\n` +
-        `Protection Plan: ${protection}\n\n` +
-        `Grand Total: $${total.toFixed(2)}`;
-
-      document.getElementById('summary').value = summary;
-    }
+	}
 </script>	
 
 
