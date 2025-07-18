@@ -32,7 +32,7 @@
         to expand my interests and hobbies, and to discover what life means in adulthood.  While continuing to build on the skills learned from the military by rebuilding crashed 
         cars from my '96 Camaro, to deep engine repair, to my VW TDI Jetta. Childhood interests continued to grow from macro photography and astrophotography to movies and video games.</p>
             
-            <img src="Images/Camping2021.png" alt="Camping2021" width="450" height="250">
+            <img src="Images/Camping2021.png" alt="Camping2021" width="25%" height="50%">
 
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Subsequently, the military is not all-encompassing of who I am. With the newfound freedom from the constant rule of my parents and my mother’s dislike of dogs, I found my first 
         dog, Pepper, in the newspaper. Yup, I’m officially old! Following in my footsteps with a love for dogs is my twin sister. My girlfriend at the time told me about a dog in a 
@@ -40,7 +40,8 @@
         and her story together throughout her life, but I will refrain and only say I miss her every day. After Pepper’s passing, I found my second dog, Freya, six long and lonely 
         months later, at the local Humane Society. Freya has become the goofiest and loved addition to my family and would make Pepper proud!</p>
 
-            <img src="Images/Pepper.png" alt="Pepper" width="220" height="450"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="220" height="450"><img src="Images/Freya2023.png" alt="Freya" width="270" height="450"><img src="Images/FreyaCharlie2024.png" alt="FreyaCharlie2024" width="300" height="450">
+            <img src="Images/Pepper.png" alt="Pepper" width="25%" height="50%"><img src="Images/PepperCharlie.png" alt="PepperCharlie" width="25%" height="50%"><img src="Images/Freya2023.png" alt="Freya" width="25%" height="50%">
+            <img src="Images/FreyaCharlie2024.png" alt="FreyaCharlie2024" width="25%" height="50%">
 
         <p>&nbsp;&nbsp;&nbsp;&nbsp; Looking ahead, I carry these chapters like well-worn patches on my uniform, reminders that the kid who once marched off wide-eyed now stands as a seasoned traveler, 
         grease-knuckled tinkerer, and devoted dog guardian. The uniform will come off eventually; however, the discipline, curiosity, and habit of welcoming four-legged comedians into 
