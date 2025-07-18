@@ -6,12 +6,12 @@
 	
 <body style="background-color:burlywood">
 <hr>
-<p>Full Name: <input type="text" name="name"required></p>
-<p>Address: <input type="text" name="address"required></p>
-<p>Email: <input type="email" name="email"required></p>
-<p>State: <input type="text" name="state"required></p>
-<p>ZIP Code: <input type="text" name="zip"required></p>
-<p>Phone Number: <input type="text" name="phone"required></p>
+  <p>Full&nbsp;Name: <input type="text" id="name"   required></p>
+  <p>Address:&nbsp;&nbsp;&nbsp;<input type="text" id="address" required></p>
+  <p>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email"   required></p>
+  <p>State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="state"   required></p>
+  <p>ZIP&nbsp;Code:&nbsp;<input type="text" id="zip"     required></p>
+  <p>Phone&nbsp;Number:<input type="text" id="phone"   required></p>
 
 <hr>
 
@@ -26,7 +26,7 @@
 <p>Quantity:<input type ="num" name= "Quantity" id= "Quantity" required></p>
 
 <fieldset>
-    <legend><b>Rewards Member?</b></legend>
+    <legend><b>Rewards Member?(5% Discount)</b></legend>
     <label><input type ="radio" name="Rewards" value="yes"> Yes</label>
     <label><input type ="radio" name="Rewards" value="no"> No</label>
 </fieldset>
@@ -40,49 +40,68 @@
 <p><p><button type = "button" onclick="TotalPurchase()">Submit</button></p>
 <div id = "result"></div>
 	
-<hr>
-<p><big><b>Total Purchase</b></big></p>
-<p><label for="total">Total:</label>
-	<input type="text" id="total" value="0.00" disabled></p>
-<p><i>(7.5 % Tax Included)<i/></p>
+<p><b>Total Purchase</b></p>
+  <p>
+    <label for="total">Total:</label>
+    <input type="text" id="total" value="0.00" disabled>
+    <i>(7.5&nbsp;% tax included)</i>
+  </p>
 
 <script>
-function TotalPurchase() 
-	{
-       productSelect = document.getElementById('Product');
-       product = productSelect.value;
-       price = 0;
-      if (product == 'Epoxy Table 1') {
+function totalPurchase() {
+      
+      const name  = document.getElementById('name').value.trim();
+      const addr  = document.getElementById('address').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const state = document.getElementById('state').value.trim();
+      const zip   = document.getElementById('zip').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+
+      const productSel = document.getElementById('product');
+      const product    = productSel.value;
+
+      /* keep the original if-else-if block for price */
+      let price = 0;
+      if (product === 'Epoxy Table 1') {
         price = 235.00;
-      } else if (product == 'Epoxy Table 2') {
+      } else if (product === 'Epoxy Table 2') {
         price = 345.65;
-      } else if (product == 'Epoxy Table 3') {
+      } else if (product === 'Epoxy Table 3') {
         price = 567.53;
-      } else if (product == 'Epoxy Table 4') {
+      } else if (product === 'Epoxy Table 4') {
         price = 872.49;
       }
 
-       qtyBox = document.getElementById('Quantity');
-       quantity = parseInt(qtyBox.value) || 0;
+      const quantity = parseInt(document.getElementById('quantity').value) || 0;
 
-       rewardsSelect = document.getElementsByName('Rewards');
-       rewards = rewardsSelect[0].checked ? 'yes' : 'no';
-	   
-       protectSelect = document.getElementsByName('Protection');
-       protection = protectSelect[0].checked ? 'yes' : 'no';
+     
+      const rewards    = document.querySelector('input[name="rewards"]:checked').value;
+      const protection = document.querySelector('input[name="protection"]:checked').value;
 
-       subtotal = price * quantity;
-      if (protection == 'yes') {
-        subtotal += 350.00;
-      }
-      if (rewards == 'yes') {
-        subtotal -= subtotal * 0.05;  
-      }
-       tax = subtotal * 0.075;      
-       total = subtotal + tax;
-	  
+      let subtotal = price * quantity;
+      if (protection === 'yes') subtotal += 350.00;
+      if (rewards    === 'yes') subtotal *= 0.95;    // 5 % discount
+
+      const tax   = subtotal * 0.075;                // 7.5 % tax
+      const total = subtotal + tax;
+
       document.getElementById('total').value = total.toFixed(2);
-	}
+
+      const summary =
+        `Name:            ${name}\n` +
+        `Address:         ${addr}\n` +
+        `Email:           ${email}\n` +
+        `State:           ${state}\n` +
+        `ZIP Code:        ${zip}\n` +
+        `Phone:           ${phone}\n\n` +
+        `Product:         ${product}\n` +
+        `Quantity:        ${quantity}\n` +
+        `Rewards Member:  ${rewards}\n` +
+        `Protection Plan: ${protection}\n\n` +
+        `Grand Total: $${total.toFixed(2)}`;
+
+      document.getElementById('summary').value = summary;
+    }
 </script>	
 
 
