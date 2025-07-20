@@ -68,6 +68,16 @@
                     </a>
                 </body>
             </html>
+<fieldset>
+        <legend style="color:rgb(95, 27, 2);"><big><big><b>Epoxy Table Order Form Link</b></big></big></legend>
+            <html>
+                <body>
+                    Mastery Website:
+                    <a href="Mastery Website.html">
+                        View Mastery Website (In Work)!
+                    </a>
+                </body>
+            </html>
 
 </fieldset>
 
