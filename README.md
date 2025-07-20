@@ -76,9 +76,6 @@
                     <a href="Mastery Website.html">
                         View Mastery Website (In Work)!
                     </a>
-                </body>
-            </html>
-
 </fieldset>
 
 </body>
