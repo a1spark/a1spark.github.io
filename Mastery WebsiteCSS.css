@@ -19,7 +19,12 @@
     .gallery img { width: 30%;
                   margin: 1%;
                   border-radius: 8px; }
-    .video-container { text-align: center; }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px; 
+    }
     .resources ul { list-style-type: none;
                    padding: 0; }
     .resources li { margin: 0.5em 0; }
