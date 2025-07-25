@@ -25,7 +25,7 @@
     <legend><b>Bio</b></legend>
     <p>
      Bio:
-      <a href="Bio2.html">View Bio</a>
+      <a href="Index/Bio2.html">View Bio</a>
     </p>
   </fieldset>
 
