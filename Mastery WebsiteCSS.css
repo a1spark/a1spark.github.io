@@ -31,10 +31,10 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      background-color: #f9f9f9;
+      background-color: color: #005362;
       padding: 1rem;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.9);
     }
 
     iframe {
