@@ -9,11 +9,21 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.25);
       font-family: system-ui, sans-serif;
     }
-   h2 {
+    header {
+      margin: 0 0 0.5rem;
+      font-size: 3rem;
+      color: #622e00;
+        }
+    h1{
       margin: 0 0 0.5rem;
       font-size: 1.75rem;
       color: #622e00;
-    }
+        }
+    h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.75rem;
+      color: #622e00;
+         }
     p {
       margin: 0;
       font-size: 1.1rem;
