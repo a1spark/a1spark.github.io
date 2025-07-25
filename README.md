@@ -7,14 +7,6 @@
 </head>
     
 <header>
-<title> 
-    Hard Knox Life
-</title>
-
-</header>
-<body style="background-color:burlywood;">
-
-<header>
 <h1> Hard Knox Life</h1>
 </header>
 <hr>
