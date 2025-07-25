@@ -4,8 +4,3 @@
 
     fieldset{color:rgb(95, 27, 2);}
 
-    nav { background-color: #4a77a5;
-         display: flex;
-         justify-content: left;
-         gap: 1em;
-         padding: 1em; }
