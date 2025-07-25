@@ -9,6 +9,7 @@
 <header>
 <h1> Hard Knox Life</h1>
 </header>
+
 <body>
 <hr>
 
@@ -29,19 +30,13 @@
 
 <fieldset>
         <legend><big><big><b>Epoxy Table Order Form Link</b></big></big></legend>
-            <html>
-                <body>
                     Epoxy Table Order Form:
                     <a href="OrderForm/Epoxy Table Order Form.html">
                         Order an Epoxy Table Here!
                     </a>
-                </body>
-            </html>
 </fieldset>
 <fieldset>
         <legend><big><big><b>Mastery Website</b></big></big></legend>
-            <html>
-                <body>
                     Mastery Website:
                     <a href="Mastery Website.html">
                         View Mastery Website (In Work)!
