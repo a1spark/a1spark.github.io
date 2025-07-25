@@ -9,6 +9,7 @@
 <header>
 <h1> Hard Knox Life</h1>
 </header>
+<body>
 <hr>
 
 <fieldset>
