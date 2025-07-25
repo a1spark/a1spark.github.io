@@ -1,8 +1,15 @@
+
 <html>
 
 <title> A1spark Epoxy Table Order Form </title>
 <header>
 	<h1 style="color:rgb(95, 27, 2);">A1spark Epoxy Table Order Form</header></h1>
+	
+  <section id="bulk-deal">
+    <h2>Buy&nbsp;2 or More Tables &nbsp;→&nbsp; 10 % OFF!</h2>
+    <p>Perfect for cafes, offices, or anyone furnishing multiple rooms.  
+       The discount is applied automatically at checkout—no code needed.</p>
+  </section>
 	
 <body style="background-color:burlywood">
 <hr>
@@ -76,6 +83,10 @@ function TotalPurchase()
       if (protection == 'yes') {
         subtotal += 350.00;
       }
+	  
+      if (quantity >= 2) {
+	  }subtotal -= subtotal * 0.10;
+	  
       if (rewards == 'yes') {
         subtotal -= subtotal * 0.05;  
       }
