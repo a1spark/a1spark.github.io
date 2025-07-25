@@ -1,4 +1,4 @@
-    body {
+body {
       background: #ffd966;           
       border: 3px solid #c57e00;
       border-radius: 8px;
@@ -9,22 +9,22 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.25);
       font-family: system-ui, sans-serif;
     }
-    header {
+header {
       margin: 0 0 0.5rem;
       font-size: 3rem;
       color: #622e00;
         }
-    h1{
+h1{
       margin: 0 0 0.5rem;
       font-size: 1.75rem;
       color: #622e00;
         }
-    h2 {
+h2 {
       margin: 0 0 0.5rem;
       font-size: 1.75rem;
       color: #622e00;
          }
-    p {
+p {
       margin: 0;
       font-size: 1.1rem;
       color: #3d2400;
