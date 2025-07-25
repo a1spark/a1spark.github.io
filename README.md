@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hard Knox Life</title>
-  <link rel="stylesheet" href="Index-Page.css">
+  <link rel="stylesheet" href="Index Page.css">
 </head>
 
 <body>
