@@ -1,0 +1,21 @@
+    #bulk-deal {
+      background: #ffd966;           
+      border: 3px solid #c57e00;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1rem auto 2rem;
+      max-width: 680px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+      font-family: system-ui, sans-serif;
+    }
+    #bulk-deal h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.75rem;
+      color: #622e00;
+    }
+    #bulk-deal p {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #3d2400;
+    }
