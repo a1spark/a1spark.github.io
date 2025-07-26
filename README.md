@@ -50,7 +50,7 @@
     <legend><b>Mastery Website</b></legend>
     <p>
       Mastery Website:
-      <a href="Mastery-Website.html">View Mastery Website (In Work)!</a>
+      <a href="Mastery Website.html">View Mastery Website (In Work)!</a>
     </p>
   </fieldset>
 
