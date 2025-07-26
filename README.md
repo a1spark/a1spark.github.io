@@ -42,7 +42,7 @@
     <legend><b>Epoxy Table Order Form Link</b></legend>
     <p>
       Epoxy Table Order Form:
-      <a href="OrderForm/Epoxy-Table-Order-Form.html">Order an Epoxy Table Here!</a>
+      <a href="OrderForm/Epoxy Table Order Form.html">Order an Epoxy Table Here!</a>
     </p>
   </fieldset>
 
