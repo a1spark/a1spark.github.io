@@ -48,10 +48,10 @@ The discount is applied automatically at checkout—no code needed.</p>
 <div id = "result"></div>
 
 <p><b>Total Discount</b></p>
-   <p>
-    <label for="total">Total Discount:</label>
-    <input type="text" id="total discount" value="0.00" disabled>
-  </p>
+<p>
+  <label for="discount">Total:</label>
+  <input type="text" id="total_discount" value="0.00" disabled>
+</p>
 	
 <p><b>Total Purchase</b></p>
   <p>
@@ -62,46 +62,52 @@ The discount is applied automatically at checkout—no code needed.</p>
 </body>
 
 <script>
-function TotalPurchase() 
-	{
-       productSelect = document.getElementById('Product');
-       product = productSelect.value;
-       price = 0;
-      if (product == 'Epoxy Table 1') {
-        price = 235.00;
-      } else if (product == 'Epoxy Table 2') {
-        price = 345.65;
-      } else if (product == 'Epoxy Table 3') {
-        price = 567.53;
-      } else if (product == 'Epoxy Table 4') {
-        price = 872.49;
-      }
+function TotalPurchase() {
+  const productSelect = document.getElementById('Product');
+  const product = productSelect.value;
 
-       qtyBox = document.getElementById('Quantity');
-       quantity = parseInt(qtyBox.value) || 0;
+  let price = 0;
+  if (product === 'Epoxy Table 1') price = 235.00;
+  else if (product === 'Epoxy Table 2') price = 345.65;
+  else if (product === 'Epoxy Table 3') price = 567.53;
+  else if (product === 'Epoxy Table 4') price = 872.49;
 
-       rewardsSelect = document.getElementsByName('Rewards');
-       rewards = rewardsSelect[0].checked ? 'yes' : 'no';
-	   
-       protectSelect = document.getElementsByName('Protection');
-       protection = protectSelect[0].checked ? 'yes' : 'no';
+  const qtyBox = document.getElementById('Quantity');
+  const quantity = parseInt(qtyBox.value) || 0;
 
-       subtotal = price * quantity;
-      if (protection == 'yes') {
-        subtotal += 350.00;
-      }
-	  
-      if (quantity >= 2) {
-	  }subtotal -= subtotal * 0.10;
-	  
-      if (rewards == 'yes') {
-        subtotal -= subtotal * 0.05;  
-      }
-       tax = subtotal * 0.075;      
-       total = subtotal + tax;
-	  
-      document.getElementById('total').value = total.toFixed(2);
-	}
+  const rewardsSelect = document.getElementsByName('Rewards');
+  const rewards = rewardsSelect[0].checked ? 'yes' : 'no';
+
+  const protectSelect = document.getElementsByName('Protection');
+  const protection = protectSelect[0].checked ? 'yes' : 'no';
+
+  let subtotal = price * quantity;
+
+  if (protection === 'yes') {
+    subtotal += 350.00;
+  }
+
+  // Store discount amounts for display
+  let discountAmount = 0;
+
+  if (quantity >= 2) {
+    const bulkDiscount = subtotal * 0.10;
+    discountAmount += bulkDiscount;
+    subtotal -= bulkDiscount;
+  }
+
+  if (rewards === 'yes') {
+    const rewardsDiscount = subtotal * 0.05;
+    discountAmount += rewardsDiscount;
+    subtotal -= rewardsDiscount;
+  }
+
+  const tax = subtotal * 0.075;
+  const total = subtotal + tax;
+
+  document.getElementById('total').value = total.toFixed(2);
+  document.getElementById('total_discount').value = discountAmount.toFixed(2);
+}
 </script>	
 
 
