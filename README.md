@@ -49,8 +49,8 @@
   <fieldset>
     <legend><b>Mastery Website</b></legend>
     <p>
-      Mastery Website:
-      <a href="Mastery Website.html">View Mastery Website (In Work)!</a>
+      Intrest Website:
+      <a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a>
     </p>
   </fieldset>
 
