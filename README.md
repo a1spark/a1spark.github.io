@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hard Knox Life</title>
   <link rel="stylesheet" href="Index Page.css">
+  
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 
   <hr>
     <fieldset>
-    <legend><b>Bio</b></legend>
+    <legend><b><big><big>Bio</b></big></legend>
     <p>
       <a href="Bio2.html">View Bio</a>
     </p>
