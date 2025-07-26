@@ -23,7 +23,7 @@
 
   <hr>
     <fieldset>
-    <legend><b><big><big>Bio</b></big></legend>
+    <legend><b><Bio</b></legend>
     <p>
       <a href="Bio2.html">View Bio</a>
     </p>
