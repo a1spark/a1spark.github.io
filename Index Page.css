@@ -1,13 +1,24 @@
 
-    body { background-color: burlywood; 
-    h1 {color:rgb(95, 27, 2); }
-
-   fieldset{color:rgb(95, 27, 2);
+body { background-color: burlywood; 
+h1 {color:rgb(95, 27, 2); }
+      
+fieldset{color:rgb(95, 27, 2);
           width:75%;
           padding: 10px;
           background-color: bisque;
           border: 5px saddlebrown;}
 
-img {
-  float: right;
-    }
+.zoom-img {
+  width: 300px;
+  overflow: hidden;
+}
+
+.zoom-img img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: all .3s ease;
+}
+.zoom-img img:hover {
+  transform: scale(1.2);
+}
