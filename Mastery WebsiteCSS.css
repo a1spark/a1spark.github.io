@@ -17,21 +17,22 @@
     nav a:hover { color: #07dd2b; }
     main { padding: 2em; }
 
-.gallery img { width: 30%;
-               margin: 1%;
-               border-radius: 8px; }
-    .grid-container {
+.grid-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
       gap: 1.5rem;
       padding: 1rem;
     }
 
+.gallery img { width: 30%;
+               margin: 1%;
+               border-radius: 1px; }
+
 div.gallery {
-  margin: 10px;
+  margin: 1px;
   border: 5px solid #ccc;
   float: center;
-  width: 500px;
+  width: 30px;
 }
 
 div.gallery:hover {
