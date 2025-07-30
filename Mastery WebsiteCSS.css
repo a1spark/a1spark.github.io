@@ -31,7 +31,7 @@
 div.gallery {
   margin: 1px;
   border: 5px solid #ccc;
-  float: center;
+  float: left;
   width: 30px;
 }
 
