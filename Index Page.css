@@ -1,5 +1,7 @@
-
-body { background-color: burlywood; 
+body { background-image: url('Images/morning_rain_by_a1cknox_d5riy22-414w-2x.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
 h1 {color:rgb(95, 27, 2); }
       
 fieldset{color:rgb(95, 27, 2);
