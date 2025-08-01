@@ -49,9 +49,7 @@ body {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-}
 </style> 
-  </style>
 </head>
 
 <body>
@@ -80,6 +78,8 @@ body {
   </fieldset>
   </div>
 
+  <div class="row"
+  <div class="column">
   <fieldset>
     <legend><b>Frequently Visited Sites</b></legend>
     <ul>
@@ -88,7 +88,10 @@ body {
       <li><a href="https://www.gamingbible.com/">Gaming News: gamingbible.com</a></li>
     </ul>
   </fieldset>
+  </div>
 
+  <div class="row"
+  <div class="column">
   <fieldset>
     <legend><b>Epoxy Table Order Form Link</b></legend>
     <p>
@@ -96,7 +99,10 @@ body {
       <a href="OrderForm/Epoxy Table Order Form.html">Order an Epoxy Table Here!</a>
     </p>
   </fieldset>
+  </div>
 
+  <div class="row"
+  <div class="column">
   <fieldset>
     <legend><b>Mastery Website</b></legend>
     <p>
@@ -104,6 +110,7 @@ body {
       <a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a>
     </p>
   </fieldset>
+  </div>
 
 </body>
 </html>
