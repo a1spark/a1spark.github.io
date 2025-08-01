@@ -8,8 +8,7 @@ h1 {color:rgb(233, 250, 1); }
 fieldset{color:rgb(233, 250, 1);
           width:80%;
           padding: 10px;
-          background-color: #4a77a5;
-          border: 5px saddlebrown;
+          border: 5px color: #4a77a5;
         }
 img {
   float: center;
@@ -28,6 +27,7 @@ img {
 .zoom-img img:hover {
   transform: scale(1.2);
 }
+
 
 
 
