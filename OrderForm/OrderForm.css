@@ -1,5 +1,8 @@
-body {
-      background: burlywood;         
+body {background-image: url('Images/morning_rain_by_a1cknox_d5riy22-414w-2x.jpg'); 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
       border: 3px solid #c57e00;
       border-radius: 8px;
       padding: 1.5rem;
@@ -29,3 +32,4 @@ p {
       font-size: 1.1rem;
       color: #3d2400;
     }
+
