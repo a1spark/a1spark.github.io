@@ -68,7 +68,7 @@ body {
 
 
   <hr>
-  <div class="row"
+  <div class="row">
   <div class="column">
     <fieldset>
     <legend><b>Bio</b></legend>
@@ -78,7 +78,7 @@ body {
   </fieldset>
   </div>
 
-  <div class="row"
+  <div class="row">
   <div class="column">
   <fieldset>
     <legend><b>Frequently Visited Sites</b></legend>
@@ -90,7 +90,7 @@ body {
   </fieldset>
   </div>
 
-  <div class="row"
+  <div class="row">
   <div class="column">
   <fieldset>
     <legend><b>Epoxy Table Order Form Link</b></legend>
@@ -101,7 +101,7 @@ body {
   </fieldset>
   </div>
 
-  <div class="row"
+  <div class="row">
   <div class="column">
   <fieldset>
     <legend><b>Mastery Website</b></legend>
