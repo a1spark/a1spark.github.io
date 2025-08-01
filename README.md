@@ -22,7 +22,7 @@
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .row {
     -webkit-flex-direction: column;
     flex-direction: column;
