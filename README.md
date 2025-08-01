@@ -51,7 +51,7 @@
     <fieldset>
     <legend><b>Bio</b></legend>
     <p>
-      <a href="Bio2.html">View Bio</a>
+      <a href="Bio2.html">___View Bio___</a>
     </p>
   </fieldset>
   </div>
@@ -90,5 +90,4 @@
   </fieldset>
   </div>
 
-</body>
-</html>
+
