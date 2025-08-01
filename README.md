@@ -51,7 +51,7 @@
     <fieldset>
     <legend><b>Bio</b></legend>
     <p>
-      <a href="Bio2.html">___View Bio___</a>
+      <a href="Bio2.html">View Bio</a>
     </p>
   </fieldset>
   </div>
@@ -82,7 +82,7 @@
   <div class="row">
   <div class="column">
   <fieldset>
-    <legend><b>Mastery Website</b></legend>
+    <legend><b>How-To Website</b></legend>
     <p>
       Intrest Website:
       <a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a>
