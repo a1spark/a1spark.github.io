@@ -51,8 +51,8 @@
     <fieldset>
     <legend><b>Bio</b></legend>
     <p>
-      <ul
-        <li><a href="Bio2.html">View Bio</a>
+      <ul>
+        <li><a href="Bio2.html">View Bio</a></li>
       </ul>
     </p>
   </fieldset>
@@ -76,7 +76,7 @@
     <legend><b>Epoxy Table Order Form Link</b></legend>
     <p>
     <ul>
-      <li></li><a href="OrderForm/Epoxy Table Order Form.html">Order an Epoxy Table Here!</a>
+      <li><a href="OrderForm/Epoxy Table Order Form.html">Order an Epoxy Table Here!</a></li>
     </ul>
     </p>
   </fieldset>
@@ -88,7 +88,7 @@
     <legend><b>How-To Website</b></legend>
     <p>
       <ul>
-        <li></li><a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a>
+        <li><a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a></li>
       </ul>
     </p>
   </fieldset>
