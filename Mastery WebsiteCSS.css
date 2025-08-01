@@ -34,6 +34,29 @@ div.gallery {
   float: left;
   width: 30px;
 }
+    .gallery-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .grid-item {
+      color:rgb(233, 250, 1);
+      text-align: center;
+    }
+
+    .grid-item img {
+      width: 350px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .desc {
+      margin-top: 8px;
+      font-size: 14px;
+    }
 
 div.gallery:hover {
   border: 1px solid #777;
