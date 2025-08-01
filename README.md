@@ -4,7 +4,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hard Knox Life</title>
   <link rel="stylesheet" href="Index Page.css">
-  
+  <style>
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style> 
+  </style>
 </head>
 
 <body>
@@ -21,13 +68,17 @@
     </em>
   </fieldset>
 
+
   <hr>
+  <div class="row"
+  <div class="column">
     <fieldset>
     <legend><b>Bio</b></legend>
     <p>
       <a href="Bio2.html">View Bio</a>
     </p>
   </fieldset>
+  </div>
 
   <fieldset>
     <legend><b>Frequently Visited Sites</b></legend>
