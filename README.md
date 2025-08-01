@@ -5,21 +5,6 @@
   <title>Hard Knox Life</title>
   <link rel="stylesheet" href="Index Page.css">
   <style>
-   * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
 
 /* Container for flexboxes */
 .row {
@@ -36,15 +21,9 @@ body {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .row {
     -webkit-flex-direction: column;
     flex-direction: column;
