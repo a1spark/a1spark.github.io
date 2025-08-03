@@ -87,8 +87,8 @@ img {
 }
 
 .photo-grid img {
-  width: 100% !important;
-  height: auto !important;
+  width: min(100% 900px);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 @media (min-width: 600px) {
@@ -96,6 +96,7 @@ img {
     width: 400px;
   }
 }
+
 
 
 
