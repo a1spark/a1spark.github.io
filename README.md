@@ -59,7 +59,7 @@
   <fieldset>
     <legend><b>Frequently Visited Sites</b></legend>
     <ul>
-      <li><a href="FrequenSites.html">Frequently Visited Sites Click Here!</a></li>
+      <li><a href="FrequentSites.html">Frequently Visited Sites Click Here!</a></li>
     </ul>
   </fieldset>
   </div>
