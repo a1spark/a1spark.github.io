@@ -98,9 +98,15 @@ img {
 .zoom-img.photo-grid {
   width: min(100%, 1200px) !important;
   max-width: 100%;
+}
+  
+.zoom-img.photo-grid {
+  width: min(100%, 1200px) !important;
+  max-width: 100%;
   }
 
 }
+
 
 
 
