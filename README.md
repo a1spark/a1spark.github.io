@@ -87,5 +87,17 @@
     </p>
   </fieldset>
   </div>
+    
+  <div class="row">
+  <div class="column">
+  <fieldset>
+    <legend><b>Need a Macro Lens?</b></legend>
+    <p>
+      <ul>
+        <li><a href="MacroLens.html">Need a Macro Lens? Click Here!</a></li>
+      </ul>
+    </p>
+  </fieldset>
+  </div>
 
 
