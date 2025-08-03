@@ -6,13 +6,11 @@
   <link rel="stylesheet" href="Index Page.css">
   <style>
 
-/* Container for flexboxes */
 .row {
   display: -webkit-flex;
   display: flex;
 }
 
-/* Create three equal columns that sits next to each other */
 .column {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -20,8 +18,6 @@
   padding: 10px;
 }
 
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 1000px) {
   .row {
     -webkit-flex-direction: column;
@@ -63,9 +59,7 @@
   <fieldset>
     <legend><b>Frequently Visited Sites</b></legend>
     <ul>
-      <li><a href="https://collider.com/">Movie News: collider.com</a></li>
-      <li><a href="https://www.damage.com/">Repairable Salvaged Vehicles: damage.com</a></li>
-      <li><a href="https://www.gamingbible.com/">Gaming News: gamingbible.com</a></li>
+      <li><a href="FrequenSites.html">Frequently Visited Sites Click Here!</a></li>
     </ul>
   </fieldset>
   </div>
@@ -88,7 +82,7 @@
     <legend><b>How-To Website</b></legend>
     <p>
       <ul>
-        <li><a href="Mastery Website.html">View Intrest Website with How-to Tutorial (In Work)!</a></li>
+        <li><a href="Mastery Website.html">View Intrest Website with How-to Tutorial Click Here!</a></li>
       </ul>
     </p>
   </fieldset>
