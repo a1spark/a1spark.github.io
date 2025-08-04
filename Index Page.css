@@ -38,6 +38,16 @@ h1 {
   margin-inline: auto;
 }
 
+a:link{
+  color:yellow;
+  text-decoration:none;
+}
+a:visited{
+  color:green;
+  text-decoration:none;
+}
+
+
 fieldset {
   background: rgba(255, 255, 255, 0.1);
   border: 3px solid #4a77a5;
@@ -97,6 +107,7 @@ img {
   }
 
 }
+
 
 
 
