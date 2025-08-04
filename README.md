@@ -4,8 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hard Knox Life</title>
   <link rel="stylesheet" href="Index Page.css">
-  <style>
-
+  
+<style>
 .row {
   display: -webkit-flex;
   display: flex;
@@ -97,7 +97,10 @@
         <li><a href="MacroLens.html">Need a Macro Lens? Click Here!</a></li>
       </ul>
     </p>
-  </fieldset>
-  </div>
+    </fieldset>
+    </div>
+    </div>
+   </body>
+  </html>
 
 
